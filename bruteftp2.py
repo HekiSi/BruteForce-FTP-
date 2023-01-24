@@ -24,13 +24,6 @@ try:
     if len(argv) < 2:
         print('HOW TO USE: python3 bruteforceftp.py <host> <port> <user_wordlist> <pass_wordlist>')
 
-    # sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # sock.connect((str.encode(host), int(port)))
-    # data = sock.recv(1024)
-
-
-
-    # convert_data = str(data)
     access_UW = open(user_wordlist, 'r').readlines()
     access_PW = open(pass_wordlist, 'r').readlines()
 
