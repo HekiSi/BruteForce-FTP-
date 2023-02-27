@@ -22,7 +22,7 @@ try:
     pass_wordlist = argv[4]
 
     if len(argv) < 2:
-        print('HOW TO USE: python3 bruteforceftp.py <host> <port> <user_wordlist> <pass_wordlist>')
+        print('HOW TO USE: python3 bruteftp.py <host> <port> <user_wordlist> <pass_wordlist>')
 
     access_UW = open(user_wordlist, 'r').readlines()
     access_PW = open(pass_wordlist, 'r').readlines()
